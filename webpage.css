@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    background-color: #D5CEA3;
+    color: #3c2a21;
+}
+.header{
+    font-size: 40px;
+    text-align: center;
+    background-color: #3C2A21;
+    color: #D5CEA3;
+    padding: 2%;
+    background-image: url(../Media/glogo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: 2%;
+}
+.nav{
+    background-color: #D5CEA3;
+}
+ul{
+    list-style-type: none;
+    /* float: right; */
+    display: flex;
+    flex-direction: row-reverse;
+}
+li{
+    margin: 1%;
+}
+a{
+    text-decoration: none;
+    color: #3c2a21;
+    font-weight: 900;
+}
+.news{
+    border-bottom: 2px solid #3c2a21;
+    border-top: 2px solid #3c2a21;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 20px;
+    font-weight: 700;
+}   
+.container{
+    display: flex;
+}
+.courseDetail{
+    width: 30%;
+    border: 2px solid saddlebrown;
+    height: 500px;
+    overflow: auto;
+}
+.h1{
+    position: sticky;
+    top: 0;
+    text-align: center;
+}
+.courseInfo{
+    width: 70%;
+    /* border: 2px solid saddlebrown; */
+    /* height: 600px; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    border: 1px solid #3c2a21;
+    height: 330px;
+    width: 300px;
+    margin: 2%;
+    border-radius: 3%;
+}
+.cimg{
+    height: 70%;
+    margin: 1%;
+}
+.ctitle{
+    text-align: center;
+    margin-top: 5%;
+
+}
+.footer{
+    text-align: right;
+    background-color: #3C2A21;
+    color: #D5CEA3;
+}
